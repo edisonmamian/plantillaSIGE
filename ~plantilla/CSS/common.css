@@ -4,8 +4,12 @@
 **/
 
 .este {
+	/**
 	background: url(../images/fondo.jpeg) !important;
 	background-repeat: repeat;
 	background-attachment: fixed; 
+	height: 5000px;
+	**/
+	background-color: #ffffff; 
 	height: 5000px;
 }
