@@ -13,3 +13,8 @@
 	background-color: #ffffff; 
 	height: 5000px;
 }
+
+#imagen-principal {
+	border : 0px solid;
+	position: relative;
+}
