@@ -11,10 +11,18 @@
 	height: 5000px;
 	**/
 	background-color: #ffffff; 
-	height: 5000px;
+	
+}
+
+#primera-roja {
+	border: 100px;
 }
 
 #imagen-principal {
-	border : 0px solid;
-	position: relative;
+	border : 100px solid;
+	
+}
+
+.breadcrumb li a span {
+	color: #999999;
 }
