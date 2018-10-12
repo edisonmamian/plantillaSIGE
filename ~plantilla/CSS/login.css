@@ -1,0 +1,105 @@
+.homce .container .row section:nth-child(1) {
+	background-color: #000000;
+}
+
+.banner {
+	display: inline-block;
+	position: relative;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 1000px;
+	left: 50px;
+
+}
+
+.banner img {
+	height: 95%;
+}
+
+.banner img:nth-child(1) {
+	position: absolute;
+	z-index: 1;
+}
+
+.banner .slider-container li {
+	width: 100%;
+	list-style: none;
+	margin-left: : 0;
+}
+
+.banner .slider-container li img {
+	width: 100%;
+	height: 100%;
+}
+
+.banner .slider-container ul {
+	display: flex;
+	margin-left: 0;
+	padding-left: 0;
+	-webkit-animation: changeSlide 40s infinite linear;
+	-moz-animation: changeSlide 40s infinite linear;
+	-o-animation: changeSlide 40s infinite linear;
+	animation: changeSlide 40s infinite linear;
+
+	-webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+
+    height: 100%;
+    width: 700%;
+}
+
+.banner .slider-container {
+	position: absolute;
+	left: 235px;
+	top: 1px;
+	height: 95%;
+	width: 80%;
+	z-index: 0;
+	overflow: hidden;
+}
+
+/*.banner button {
+	position: absolute;
+	left: 131px;
+	top: 319px;
+	height: 41px;
+	width: 147px;
+	background-color: #ffffff;
+	border: 0;
+	font-size: 20px;
+	z-index: 2;
+}*/
+
+.banner .btn {
+	background-color: #ffffff;
+	width: 147px;
+	height: 40px;
+	position: absolute;
+	left: 131px;
+	top: 319px;
+	font-size: 20px;
+	z-index: 2;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.banner form {
+	position: absolute;
+	z-index: 2;
+}
+
+.banner .btn span {
+	color: #ff0000;
+}
+
+.banner button span {
+	color: #ff0000;
+
+}
+
+.breadcrumb li a span {
+	color: #999999;
+}
