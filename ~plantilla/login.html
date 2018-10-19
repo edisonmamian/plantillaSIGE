@@ -28,6 +28,7 @@
 	<link href="./templates/univalle_dependencias/css/custom.css" rel="stylesheet" type="text/css" />
 	<link href="./templates/univalle_dependencias/css/home.css" rel="stylesheet" type="text/css" />
 	<link href="./CSS/common.css" rel="stylesheet" type="text/css">
+	<link href="./CSS/login.css" rel="stylesheet" type="text/css">
 	<script src="./media/jui/js/jquery.min.js?e3dd4090f6f57f650a7e010670374c89" type="text/javascript"></script>
 	<script src="./media/jui/js/jquery-noconflict.js?e3dd4090f6f57f650a7e010670374c89" type="text/javascript"></script>
 	<script src="./media/jui/js/jquery-migrate.min.js?e3dd4090f6f57f650a7e010670374c89" type="text/javascript"></script>
@@ -104,12 +105,22 @@
 	<div class="home">
 		<div class="container">
 			<div class="row">
-				<section class="col-lg-12">
-				</section>
-				<section class="col-lg-12">
-				</section>
+				<p> Sistema de Información para la Gestión de Egresados </p>
+				<p> Programa Institucional de Egresados </p>
 			</div>
+			<form action="" method="POST" class="formLogin">
+				<div class="row">
+					<label class="etiqueta">Usuario</label>
+					<input type="text" name="user" class="campo"  placeholder="Correo">
+				</div>
+				<div class="row">
+					<label class="etiqueta">Contraseña</label>
+					<input type="password" name="password" class="campo" placeholder="Contraseña">	
+				</div>
+				<div class="row">
+					<button type="submit" class="btn ini">Iniciar</button>
+				</div>
+			</form>
 		</div>
-
 	</div>
 </body>
