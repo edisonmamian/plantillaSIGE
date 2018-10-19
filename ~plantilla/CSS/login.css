@@ -16,7 +16,32 @@ body .container {
 	opacity: 0.8;
 }
 
-@media only screen and (max-width: 450px){
+body .container .formLogin {
+	position: relative;
+	top: 30%;
+	left: 15%;
+	height: 30%;
+	width: 80%;
+
+}
+
+body .container .formLogin .row {
+	position: relative;
+	padding-top: 5%;
+}
+
+body .container .formLogin .row .campo {
+	position: relative;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+}
+
+body .container .formLogin .row .ini {
+	border-radius: 10%;
+}
+
+@media only screen and (max-width: 765px){
 	body .container {
 		position: absolute;
 		top: 0%;
