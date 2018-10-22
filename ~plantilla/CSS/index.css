@@ -100,6 +100,40 @@
 	color: #999999;
 }
 
+.programa {
+	width: 100%;
+}
+
+.programa .row .imagen {
+	border-radius: 25% 25% 25% 25%;
+	width: 35%;
+	height: 10%;
+	position: relative;		 
+}
+
+.programa .row .img-izq {
+	left: 5%;
+}
+
+.programa .row .img-der {
+	right: 5%;
+}
+
+.program .row .bloque {
+	width: 60%;
+	height: 10%;
+	position: relative;
+}
+
+.programa .row .imagen img {
+	width: 100%;
+}
+
+.programa .row .bloque img {
+	width: 100%;
+}
+
+
 
 @-webkit-keyframes changeSlide {
 	0%{
