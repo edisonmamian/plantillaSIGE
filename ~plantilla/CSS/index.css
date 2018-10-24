@@ -105,32 +105,36 @@
 }
 
 .programa .row .imagen {
-	border-radius: 25% 25% 25% 25%;
+	border-radius: 100% 100% 100% 100%;
 	width: 35%;
-	height: 10%;
-	position: relative;		 
-}
+	height: 22%;
+}	
 
 .programa .row .img-izq {
 	left: 5%;
 }
 
 .programa .row .img-der {
-	right: 5%;
+	left: 100%;
 }
 
-.program .row .bloque {
+.programa .row .bloque {
 	width: 60%;
-	height: 10%;
-	position: relative;
+	height: 100%;
+	
+}
+
+.programa .row .bloq-izq{
+
 }
 
 .programa .row .imagen img {
-	width: 100%;
+	width: 100%;	
+	border-radius: 100% 100% 100% 100%;
 }
 
-.programa .row .bloque img {
-	width: 100%;
+.programa .row .bloque img {	
+	height: 100%;
 }
 
 
