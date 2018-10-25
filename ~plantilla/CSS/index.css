@@ -116,6 +116,27 @@
 	width: 100%;
 }
 
+.programa .row .nombre_programa  {
+	color: #b7212d;
+	position: relative;	
+}
+
+.programa .row #programa_egresados1 {
+	left: 30%;
+	font-size: 270%;
+}
+
+.programa .row #programa_egresados2 {
+	font-size: 560% !important;
+	left: 29%;
+}
+
+.programa .row #sub {
+	width: 80%;
+	height: 10%;
+	background-color: #b7212d;
+}
+
 .programa .row .imagen {
 	border-radius: 100% 100% 100% 100%;
 	width: 25%;
