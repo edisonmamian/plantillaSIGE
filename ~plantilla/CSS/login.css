@@ -12,7 +12,7 @@ body .container {
 	right: 0%;
 	height: 100%;
 	width: 40%;
-	background-color: #ffffff;
+	background-color: #a80e16;
 	opacity: 0.8;
 }
 
@@ -39,6 +39,12 @@ body .container .formLogin .row .campo {
 
 body .container .formLogin .row .ini {
 	border-radius: 10%;
+	background-color: #f39639;
+	color: #ffffff;
+	position: relative;
+	left: 30%;
+	width: 20%;
+	border-radius: 15% 15% 15% 50%;
 }
 
 @media only screen and (max-width: 765px){
@@ -48,7 +54,7 @@ body .container .formLogin .row .ini {
 		right: 0%;
 		height: 100%;
 		width: 100%;
-		background-color: #ffffff;
+		background-color: #a80e16;
 		opacity: 0.5;
 	}
 }
