@@ -27,7 +27,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700" rel="stylesheet" type="text/css" />
 	<link href="./templates/univalle_dependencias/css/custom.css" rel="stylesheet" type="text/css" />
 	<link href="./templates/univalle_dependencias/css/home.css" rel="stylesheet" type="text/css" />
-	<link href="./CSS/common.css" rel="stylesheet" type="text/css">
 	<link href="./CSS/login.css" rel="stylesheet" type="text/css">
 	<script src="./media/jui/js/jquery.min.js?e3dd4090f6f57f650a7e010670374c89" type="text/javascript"></script>
 	<script src="./media/jui/js/jquery-noconflict.js?e3dd4090f6f57f650a7e010670374c89" type="text/javascript"></script>
@@ -110,17 +109,36 @@
 			</div>
 			<form action="" method="POST" class="formLogin">
 				<div class="row">
-					<label class="etiqueta">Usuario</label>
-					<input type="text" name="user" class="campo"  placeholder="Correo">
+					<img src="./images/login/correo.ico" class="linea">
+					<input type="text" name="user" class="campo linea"  placeholder="Correo">
 				</div>
 				<div class="row">
-					<label class="etiqueta">Contraseña</label>
-					<input type="password" name="password" class="campo" placeholder="Contraseña">	
+					<img src="./images/login/pass.ico" class="linea">
+					<input type="password" name="password" class="campo linea" placeholder="Contraseña">	
 				</div>
 				<div class="row">
 					<button type="submit" class="btn ini"><strong>Iniciar</strong></button>
 				</div>
 			</form>
+			<div class="row">
+				<ul>
+					<li>
+						<a href="https://sige.univalle.edu.co/site/sign_up">
+							Registrate como estudiante-egresado
+						</a> 
+					</li>
+					<li>
+						<a href="https://sige.univalle.edu.co/site/sign_up?empresario=true">
+							Registrate como empresario
+						</a>
+					</li>
+					<li>
+						<a href="https://sige.univalle.edu.co/site/passwords/new">
+							¿Olvidaste tu contraseña?
+						</a>
+					</li>
+				</ul>				
+			</div>
 		</div>
 	</div>
 </body>
