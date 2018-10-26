@@ -80,16 +80,17 @@ body .container {
 .container .row ul {
 	position: relative;
 	top: 35vh;
-	left: 4vw;
+	left: 2.5vw;
+	width: 34vw;
 }
 
 .container .row ul li{
 	display: inline-block;	
-	width: 9vw;
+	width: 10vw;
 	padding-right: 1vw;
 	text-align: center;	
 	line-height: 2vh;
-	font-size: 1.2vh;
+	font-size: 1.8vh;
 }
 
 .container .row ul li a {
