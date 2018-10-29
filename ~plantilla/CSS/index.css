@@ -2,9 +2,9 @@
 	display: inline-block;
 	position: relative;
 	background-repeat: no-repeat;
-	height: 500px;
-	width: 1000px;
-	left: 50px;
+	height: 59vh;
+	width: 70vw;
+	left: 3vw;
 
 }
 
@@ -49,7 +49,7 @@
 
 .banner .slider-container {
 	position: absolute;
-	left: 235px;
+	left: 16vw;
 	top: 1px;
 	height: 95%;
 	width: 80%;
@@ -71,12 +71,12 @@
 
 .banner .btn {
 	background-color: #ffffff;
-	width: 147px;
-	height: 40px;
+	width: 10vw;
+	height: 5vh;
 	position: absolute;
-	left: 131px;
-	top: 319px;
-	font-size: 20px;
+	left: 9.3vw;
+	top: 35vh;
+	font-size: 1.5vw;
 	z-index: 2;
 	font-weight: bold;
 	color: #ff0000;
@@ -123,17 +123,17 @@
 
 .programa .row #programa_egresados1 {
 	left: 30%;
-	font-size: 2.8vw;
+	font-size: 2.3vw;
 }
 
 .programa .row #programa_egresados2 {
-	font-size: 6vw !important;
+	font-size: 4.8vw !important;
 	left: 29%;
 }
 
 .programa .row #sub {
-	width: 34em;
-	height: 0.5em;
+	width: 28vw;
+	height: 0.5vh;
 	background-color: #b7212d;
 	position: relative;
 	left: 29%;
@@ -141,8 +141,8 @@
 
 .programa .row .imagen {
 	border-radius: 100% 100% 100% 100%;
-	width: 25%;
-	height: 22%;
+	width: 13vw;
+	height: 10vh;
 	position: relative;
 	z-index: 1;
 }
@@ -193,7 +193,7 @@
 	z-index: 1;
 	width: 75%;	
 	color: #ffffff;
-	font-size: 1.5vw;	
+	font-size: 2.5vh;	
 }
 
 .programa .row .bloq-izq .enlaces {
