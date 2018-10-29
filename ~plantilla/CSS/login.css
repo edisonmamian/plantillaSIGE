@@ -16,7 +16,23 @@ body .container {
 	opacity: 0.8;
 }
 
-body .container .formLogin {
+.container .row p {
+	color: #ffffff;
+	position: relative;
+	text-align: center;
+}
+
+.container .row p:nth-child(1) {
+	font-size: 2vw;	
+	top: 3vw;
+} 
+
+.container .row p:nth-child(2) {
+	font-size: 1.5vw;
+	top: 4vw;
+}
+
+.container .formLogin {
 	position: relative;
 	top: 30%;
 	left: 15%;
@@ -25,26 +41,62 @@ body .container .formLogin {
 
 }
 
-body .container .formLogin .row {
+.container .formLogin .row {
 	position: relative;
-	padding-top: 5%;
+	padding-top: 5%;	
 }
 
-body .container .formLogin .row .campo {
+.container .formLogin .row .linea {
+	display: inline-block;
 	position: relative;
+}
+
+.formLogin .row img {
+	border-radius: 100% 100% 100% 100%;
+	width: 10%;
+	padding-right: 0%;
+}
+
+.container .formLogin .row .campo {
 	top: 0%;
 	left: 0%;
-	width: 100%;
+	width: 80%;
+	border-radius: 0% 1vw 1vw 0%;
+	padding-left: 0%;
 }
 
-body .container .formLogin .row .ini {
-	border-radius: 10%;
+
+
+.container .formLogin .row .ini {
 	background-color: #f39639;
 	color: #ffffff;
 	position: relative;
 	left: 30%;
 	width: 20%;
-	border-radius: 15% 15% 15% 50%;
+	border-radius: 1vw 1vw 1vw 1vw;
+	font-size: 1vw;
+}
+
+.container .row ul {
+	position: relative;
+	top: 35vh;
+	left: 2.5vw;
+	width: 34vw;
+}
+
+.container .row ul li{
+	display: inline-block;	
+	width: 10vw;
+	padding-right: 1vw;
+	text-align: center;	
+	line-height: 2vh;
+	font-size: 1.8vh;
+}
+
+.container .row ul li a {
+	color: #ffffff;
+	
+	
 }
 
 @media only screen and (max-width: 765px){
