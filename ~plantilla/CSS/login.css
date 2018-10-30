@@ -34,7 +34,7 @@ body .container {
 
 .container .formLogin {
 	position: relative;
-	top: 30%;
+	top: 25%;
 	left: 15%;
 	height: 30%;
 	width: 80%;
@@ -46,6 +46,13 @@ body .container {
 	padding-top: 5%;	
 }
 
+.container .contenedor-campo {
+	background-color: #ffffff;
+	width: 85%;
+	height: 10%;
+	border-radius: 1vw 1vw 1vw 1vw;
+}
+
 .container .formLogin .row .linea {
 	display: inline-block;
 	position: relative;
@@ -53,16 +60,16 @@ body .container {
 
 .formLogin .row img {
 	border-radius: 100% 100% 100% 100%;
-	width: 10%;
+	width: 13%;
 	padding-right: 0%;
 }
 
 .container .formLogin .row .campo {
 	top: 0%;
 	left: 0%;
-	width: 80%;
-	border-radius: 0% 1vw 1vw 0%;
+	width: 85%;	
 	padding-left: 0%;
+	border: none;
 }
 
 
