@@ -2,9 +2,9 @@
 	display: inline-block;
 	position: relative;
 	background-repeat: no-repeat;
-	height: 500px;
-	width: 1000px;
-	left: 50px;
+	height: 59vh;
+	width: 50vw;
+	left: 3vw;
 
 }
 
@@ -49,7 +49,7 @@
 
 .banner .slider-container {
 	position: absolute;
-	left: 235px;
+	left: 13vw;
 	top: 1px;
 	height: 95%;
 	width: 80%;
@@ -71,12 +71,12 @@
 
 .banner .btn {
 	background-color: #ffffff;
-	width: 147px;
-	height: 40px;
+	width: 8vw;
+	height: 5vh;
 	position: absolute;
-	left: 131px;
-	top: 319px;
-	font-size: 20px;
+	left: 8vw;
+	top: 35vh;
+	font-size: 2.3vh;
 	z-index: 2;
 	font-weight: bold;
 	color: #ff0000;
@@ -141,14 +141,14 @@
 
 .programa .row .imagen {
 	border-radius: 100% 100% 100% 100%;
-	width: 25%;
-	height: 22%;
+	width: 13vw;
+	height: 10vh;
 	position: relative;
 	z-index: 1;
 }
 
 .programa .row .img-izq {
-	left: 5%;
+	left: 7%;
 }
 
 .programa .row .img-der {
@@ -166,11 +166,11 @@
 }
 
 .programa .row .bloq-izq {
-	left: 5%;
+	left: 1%;
 }
 
 .programa .row .bloq-der {
-	left: 5%;
+	left: 7%;
 }
 
 .programa .row .linea {
@@ -193,16 +193,20 @@
 	z-index: 1;
 	width: 75%;	
 	color: #ffffff;
-	font-size: 1.1vw;	
+	font-size: 2.2vh;	
+}
+
+.programa .row .bloque .enlaces span {
+	font-size: 2.6vh !important;
 }
 
 .programa .row .bloq-izq .enlaces {
-	top: 29%;
+	top: 25%;
 	left: 15%;
 }
 
 .programa .row .bloq-der .enlaces {
-	top: 20%;
+	top: 18%;
 	left: 10%;
 }
 
