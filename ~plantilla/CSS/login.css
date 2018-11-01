@@ -1,5 +1,5 @@
 body {
-	background-image: url('../images/login/background.jpeg') !important;
+	background-image: url('../images/login/fondo4.jpg') !important;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: auto;
@@ -96,7 +96,7 @@ body .container {
 	position: relative;
 	top: 35vh;
 	left: 2.5vw;
-	width: 34vw;
+	width: 35vw;
 	list-style-type: disc;
 }
 
@@ -107,6 +107,7 @@ body .container {
 	text-align: center;	
 	line-height: 2vh;
 	font-size: 1.8vh;
+	list-style-type: disc;
 }
 
 .container .row ul li a {
@@ -215,6 +216,7 @@ body .container {
 		text-align: center;	
 		line-height: 2vh;
 		font-size: 1.8vh;
+		list-style: disc;
 	}
 
 	.container .row ul li a {
