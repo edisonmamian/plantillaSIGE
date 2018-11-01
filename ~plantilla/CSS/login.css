@@ -1,7 +1,4 @@
 body {
-	background-image: url('../images/login/background.jpeg') !important;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
 	height: auto;
 	width: auto;
 }
@@ -14,6 +11,35 @@ body .container {
 	width: 40%;
 	background-color: #a80e16;
 	opacity: 0.8;
+}
+
+body .fondo {
+	position: absolute;
+	top: 0%;
+	height: 100%;
+	width: 100%;
+}
+
+.fondo ul {
+	display: flex;
+	padding-left: 0;
+	margin-left: 0;
+	width: 400%;
+	height: 100%;
+
+	animation: changeSlide 40s infinite linear;
+
+	transition: all 0.75s ease;
+}
+
+.fondo ul li {
+	width: 100%;
+	height: 100%;
+}
+
+.fondo ul li img{
+	width: 100%;
+	height: 100%;
 }
 
 .container .row p {
@@ -107,6 +133,7 @@ body .container {
 	text-align: center;	
 	line-height: 2vh;
 	font-size: 1.8vh;
+	list-style: disc;
 }
 
 .container .row ul li a {
@@ -215,10 +242,41 @@ body .container {
 		text-align: center;	
 		line-height: 2vh;
 		font-size: 1.8vh;
+		list-style: disc;
 	}
 
 	.container .row ul li a {
 		color: #ffffff;	
 	}
 
+}
+
+@-webkit-keyframes changeSlide{
+
+}
+
+@-moz-keyframes changeSlide{
+
+}
+
+@-o-keyframes changeSlide {
+
+}
+
+@keyframes changeSlide {
+ 0%{
+ 	margin-left: 0%;
+ }
+ 25%{
+ 	margin-left: -100%;
+ }
+ 50%{
+ 	margin-left: -200%;
+ }
+ 75%{
+ 	margin-left: -300%;
+ }
+ 100%{
+ 	margin-left: -400%;
+ }
 }
