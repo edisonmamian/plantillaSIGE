@@ -32,6 +32,15 @@ body .container {
 	top: 4vw;
 }
 
+.container .row #subrayado{
+	background-color: #ffffff;
+	position: relative;
+	top: -0.5vw;
+	left: 4vw;
+	width: 29vw;
+	height: 0.5vh;
+} 
+
 .container .formLogin {
 	position: relative;
 	top: 25%;
@@ -50,7 +59,7 @@ body .container {
 	background-color: #ffffff;
 	width: 85%;
 	height: 10%;
-	border-radius: 1vw 1vw 1vw 1vw;
+	border-radius: 2vw 2vw 2vw 2vw;
 }
 
 .container .formLogin .row .linea {
@@ -64,22 +73,21 @@ body .container {
 	padding-right: 0%;
 }
 
-.container .formLogin .row .campo {
+.container .formLogin .row .contenedor-campo .campo {
 	top: 0%;
 	left: 0%;
-	width: 85%;	
+	width: 80%;	
+	height: 100%;
 	padding-left: 0%;
 	border: none;
 }
-
-
 
 .container .formLogin .row .ini {
 	background-color: #f39639;
 	color: #ffffff;
 	position: relative;
-	left: 30%;
-	width: 20%;
+	left: 25%;
+	width: 30%;
 	border-radius: 1vw 1vw 1vw 1vw;
 	font-size: 1vw;
 }
@@ -89,6 +97,7 @@ body .container {
 	top: 35vh;
 	left: 2.5vw;
 	width: 34vw;
+	list-style-type: disc;
 }
 
 .container .row ul li{
@@ -101,9 +110,7 @@ body .container {
 }
 
 .container .row ul li a {
-	color: #ffffff;
-	
-	
+	color: #ffffff;	
 }
 
 @media only screen and (max-width: 765px){
@@ -116,4 +123,102 @@ body .container {
 		background-color: #a80e16;
 		opacity: 0.5;
 	}
+
+	.container .row p {
+		color: #ffffff;
+		position: relative;
+		text-align: center;
+	}
+
+	.container .row p:nth-child(1) {
+		font-size: 3vw;	
+		top: 6vh;
+	} 
+
+	.container .row p:nth-child(2) {
+		font-size: 2.5vw;
+		top: 10vh;
+	}
+
+	.container .row #subrayado{
+		background-color: #ffffff;
+		position: relative;
+		top: 1.5vh;
+		left: 7vw;
+		width: 80vw;
+		height: 0.5vh;
+	} 
+
+	.container .formLogin {
+		position: relative;
+		top: 25%;
+		left: 28%;
+		height: 30%;
+		width: 80%;
+
+	}
+
+	.container .formLogin .row {
+		position: relative;
+		padding-top: 5%;	
+	}
+
+	.container .contenedor-campo {
+		background-color: #ffffff;
+		width: 60%;
+		height: 10%;
+		border-radius: 2vw 2vw 2vw 2vw;
+	}
+
+	.container .formLogin .row .linea {
+		display: inline-block;
+		position: relative;
+	}
+
+	.formLogin .row img {
+		border-radius: 100% 100% 100% 100%;
+		width: 13%;
+		padding-right: 0%;
+	}
+
+	.container .formLogin .row .contenedor-campo .campo {
+		top: 0%;
+		left: 0%;
+		width: 80%;	
+		height: 100%;
+		padding-left: 0%;
+		border: none;
+	}
+
+	.container .formLogin .row .ini {
+		background-color: #f39639;
+		color: #ffffff;
+		position: relative;
+		left: 18%;
+		width: 18%;
+		border-radius: 1vw 1vw 1vw 1vw;
+		font-size: 2vw;
+	}
+
+	.container .row ul {
+		position: relative;
+		top: 35vh;
+		left: 9.5vw;
+		width: 85vw;
+		list-style-type: disc;
+	}
+
+	.container .row ul li{
+		display: inline-block;	
+		width: 20vw;
+		padding-right: 1vw;
+		text-align: center;	
+		line-height: 2vh;
+		font-size: 1.8vh;
+	}
+
+	.container .row ul li a {
+		color: #ffffff;	
+	}
+
 }
