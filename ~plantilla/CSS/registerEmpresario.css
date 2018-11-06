@@ -5,3 +5,34 @@ body {
 	height: auto;
 	width: auto;
 }
+
+.container{	
+	width: 80%;
+	height: 90%;
+	position: absolute;
+	top: 5vh;
+	left: 40vh;
+}
+
+.container #opaco{
+	opacity: 0.8;
+	background-color: #96979c;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+.container .encabezado {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+}
+
+.container .encabezado p {
+	position: relative;
+	top: 10%;
+	left: 10%;
+	font-size: 5vh;
+
+}
