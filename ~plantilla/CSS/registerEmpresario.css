@@ -6,26 +6,25 @@ body {
 	width: auto;
 }
 
-.container{	
-	width: 80%;
-	height: 90%;
+body .container{
+	padding: 0 0px !important;	
+	width: 65vw !important;
+	height: 90% !important;
 	position: absolute;
-	top: 5vh;
-	left: 40vh;
-}
-
-.container #opaco{
-	opacity: 0.8;
-	background-color: #96979c;
-	width: 100%;
-	height: 100%;
+	top: 5%;
+	left: 17%;
+	background-color: rgba(150, 151, 156, 0.8);
 	z-index: 0;
 }
 
 .container .encabezado {
 	position: absolute;
-	top: 0%;
-	left: 0%;
+	top: 0%;	
+	width: 100%;
+	opacity: 2;
+}
+
+.container .encabezado img {
 	width: 100%;
 }
 
@@ -34,5 +33,4 @@ body {
 	top: 10%;
 	left: 10%;
 	font-size: 5vh;
-
 }
