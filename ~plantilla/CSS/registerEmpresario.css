@@ -29,8 +29,46 @@ body .container{
 }
 
 .container .encabezado p {
-	position: relative;
+	position: absolute;
 	top: 10%;
 	left: 10%;
-	font-size: 5vh;
+	font-size: 9vh;
+	color: #ffffff;
+}
+
+.container form {
+	position: relative;
+	width: 80%;
+	height: 80%;
+	top: 20%;
+	left: 10%;
+}
+
+.container form .row {
+	padding-top: 2%;
+}
+
+.container form .row .linea {
+	display: inline-block;	
+}
+
+.container form label {
+	color: #ffffff;
+	font-size: 2vh;
+}
+
+.container form label span {
+	color: #a80e16;
+}
+
+.container form label a {
+	color: #ffffff;
+}
+
+.container form input {
+	width: 100%;
+}
+
+.container form select {
+	width: 100%
 }
