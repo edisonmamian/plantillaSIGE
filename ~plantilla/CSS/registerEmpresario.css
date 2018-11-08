@@ -8,7 +8,7 @@ body {
 
 body .container{
 	padding: 0 0px !important;	
-	width: 65vw !important;
+	width: 65% !important;
 	height: 90% !important;
 	position: absolute;
 	top: 5%;
@@ -21,7 +21,6 @@ body .container{
 	position: absolute;
 	top: 0%;	
 	width: 100%;
-	opacity: 2;
 }
 
 .container .encabezado img {
@@ -46,10 +45,12 @@ body .container{
 
 .container form .row {
 	padding-top: 2%;
+	height: 10%;
 }
 
 .container form .row .linea {
 	display: inline-block;	
+	height: 10%;
 }
 
 .container form label {
@@ -67,10 +68,14 @@ body .container{
 
 .container form input {
 	width: 100%;
+	border-radius: 0 1vh 1vh 0;
+	height: 100%;
 }
 
 .container form select {
-	width: 100%
+	width: 100%;
+	height: 100%;
+	border-radius: 0 1vh 1vh 0;
 }
 
 .container button {
@@ -83,4 +88,36 @@ body .container{
 	background-color: #a80e16;
 	border: none;
 	border-radius: 1vh 1vh 1vh 1vh;
+}
+
+@media only screen and (max-width: 1100px){
+	body .container{
+		padding: 0 0px !important;	
+		width: 100% !important;
+		height: 100% !important;
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		background-color: rgba(150, 151, 156, 0.8);
+		z-index: 0;
+	}
+
+	.container .encabezado {
+		position: absolute;
+		top: 0%;	
+		width: 100%;
+	}
+
+	.container .encabezado img {
+		width: 100%;
+	}
+
+	.container .encabezado p {
+		position: absolute;
+		top: 10%;
+		left: 10%;
+		font-size: 9vh;
+		color: #ffffff;
+	}
+
 }

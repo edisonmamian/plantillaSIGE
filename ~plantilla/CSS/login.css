@@ -128,13 +128,13 @@ body .container {
 
 @media only screen and (max-width: 765px){
 	body .container {
-	position: absolute;
-	top: 0%;
-	right: 0%;
-	height: 100%;
-	width: 100%;
-	background-color: #a80e16;
-	opacity: 0.8;
+		position: absolute;
+		top: 0%;
+		right: 0%;
+		height: 100%;
+		width: 100%;
+		background-color: #a80e16;
+		opacity: 0.8;
 	}
 
 	.container .row {
