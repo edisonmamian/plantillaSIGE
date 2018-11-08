@@ -72,3 +72,15 @@ body .container{
 .container form select {
 	width: 100%
 }
+
+.container button {
+	color: #ffffff;
+	position: relative;
+	left: 45%;
+	width: 15%;
+	height: 4vh;
+	font-size: 2vh;
+	background-color: #a80e16;
+	border: none;
+	border-radius: 1vh 1vh 1vh 1vh;
+}
