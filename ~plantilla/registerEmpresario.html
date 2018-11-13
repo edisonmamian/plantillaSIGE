@@ -27,7 +27,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700" rel="stylesheet" type="text/css" />
 	<link href="./templates/univalle_dependencias/css/custom.css" rel="stylesheet" type="text/css" />
 	<link href="./templates/univalle_dependencias/css/home.css" rel="stylesheet" type="text/css" />
-	<link href="./CSS/registerEmpresario.css" rel="stylesheet" type="text/css">
+	<link href="./CSS/register.css" rel="stylesheet" type="text/css">
 	<script src="./media/jui/js/jquery.min.js?e3dd4090f6f57f650a7e010670374c89" type="text/javascript"></script>
 	<script src="./media/jui/js/jquery-noconflict.js?e3dd4090f6f57f650a7e010670374c89" type="text/javascript"></script>
 	<script src="./media/jui/js/jquery-migrate.min.js?e3dd4090f6f57f650a7e010670374c89" type="text/javascript"></script>
@@ -90,101 +90,104 @@
 				<img src="./images/registrarse/encabezado.png">
 				<p>REGISTRATE</p>
 			</div>
-			<form  action="" method="POST" class="formRegister">
-				<div class="row">
-					<div class="col-md-6 col-sm-6 col-xs-12 linea">
-						<label>
-							Primer nombre <span>*</span>
-						</label>
-						<input class="form-control" type="text" name="nombre" required>
+			<div class="scroll">
+				<form  action="" method="POST" class="formRegister">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-12 linea">
+							<label>
+								Primer nombre <span>*</span>
+							</label>
+							<input class="form-control" type="text" name="nombre" required>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12 linea">
+							<label>
+								Otros nombres
+							</label>
+							<input type="text" name="nombres">
+						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-xs-12 linea">
-						<label>
-							Otros nombres
-						</label>
-						<input type="text" name="nombres">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-12 linea">
+							<label>
+								Primer apellido <span>*</span>
+							</label>
+							<input type="text" name="apellido" required>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12 linea">
+							<label>
+								Otros apellidos
+							</label>
+							<input type="text" name="apellidos">
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 col-sm-6 col-xs-12 linea">
-						<label>
-							Primer apellido <span>*</span>
-						</label>
-						<input type="text" name="apellido" required>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-12 linea">
+							<label>
+								Tipo de documento <span>*</span>
+							</label>
+							<select name="tipoDocumento">
+								<option value="Cédula"> Cédula </option>
+								<option value="Cédula de extranjería">Cédula de extranjería</option>
+								<option value="Pasaporte"> Pasaporte </option>
+								<option value="Documento de identidad">Documento de identidad </option>
+							</select>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12 linea">
+							<label>
+								Número de documento <span>*</span>
+							</label>
+							<input type="number" name="documento" pattern="^[0-9]+" required>
+						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-xs-12 linea">
-						<label>
-							Otros apellidos
-						</label>
-						<input type="text" name="apellidos">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 col-sm-6 col-xs-12 linea">
-						<label>
-							Tipo de documento <span>*</span>
-						</label>
-						<select name="tipoDocumento">
-							<option value="Cédula"> Cédula </option>
-							<option value="Cédula de extranjería">Cédula de extranjería</option>
-							<option value="Pasaporte"> Pasaporte </option>
-							<option value="Documento de identidad">Documento de identidad </option>
-						</select>
-					</div>
-					<div class="col-md-6 col-sm-6 col-xs-12 linea">
-						<label>
-							Número de documento <span>*</span>
-						</label>
-						<input type="number" name="documento" pattern="^[0-9]+" required>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 col-sm-6 col-xs-12 linea">
-						<label>
-							Lugar de expedición <span>*</span>
-						</label>
-						
-						<input list="ciudades" name="expedicion" type="text" required>
-						
-					</div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-12 linea">
+							<label>
+								Lugar de expedición <span>*</span>
+							</label>
+							
+							<input list="ciudades" name="expedicion" type="text" required>
+							
+						</div>
 
-					<div class="col-md-6 col-sm-6 col-xs-12 linea">
-						<label>
-							Cargo <span>*</span>
-						</label>
-						<input type="text" name="cargo" required>
+						<div class="col-md-6 col-sm-6 col-xs-12 linea">
+							<label>
+								Cargo <span>*</span>
+							</label>
+							<input type="text" name="cargo" required>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 col-sm-6 col-xs-12 linea">
-						<label>
-							Correo electrónico <span>*</span>
-						</label>
-						<input type="email" name="correo" required>
+					<div class="row">
+						<div class="col-md-12 col-sm-6 col-xs-12 linea">
+							<label>
+								Correo electrónico <span>*</span>
+							</label>
+							<input type="email" name="correo" required>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 col-sm-6 col-xs-10 linea">
-						<label><a href="http://sigedesaweb_oitel.univalle.edu.co/site/files/tos/terms_of_service/1/2018-11-07/Terminos-Condiciones.pdf" target="_blank">Acepta los términos y condiciones</a> <span>*</span></label> 
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-9 linea">
+							<label><a href="http://sigedesaweb_oitel.univalle.edu.co/site/files/tos/terms_of_service/1/2018-11-07/Terminos-Condiciones.pdf" target="_blank">Acepta los términos y condiciones</a> <span>*</span></label> 
+						</div>
+						<div class="col-md-1 col-sm-2 col-xs-2">
+							<input type="checkbox" name="terminos" value="True" required>
+						</div>
 					</div>
-					<div class="col-md-1 col-sm-1 col-xs-2">
-						<input type="checkbox" name="terminos" value="True" required>
+					<div class="row">
+						<div class="col-md-12 col-sm-6 col-xs-12 linea">
+							<label>
+								Tipo de usuario <span>*</span>
+							</label>
+							<select>
+								<option value="Empresario">Empresario</option>
+							</select>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 col-sm-6 col-xs-12 linea">
-						<label>
-							Tipo de usuario <span>*</span>
-						</label>
-						<select>
-							<option value="Empresario">Empresario</option>
-						</select>
-					</div>
-				</div>
-				<div class="row">
-					<button type="submit">Registrarse</button>
-				</div>				
-			</form>
+					<div class="row">
+						<button type="submit">Registrarse</button>
+					</div>				
+				</form>
+			</div>
+			
 		</div>
 	</div>
 </body>
