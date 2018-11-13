@@ -1,0 +1,153 @@
+body {
+	background-image: url('../images/registrarse/registro.jpg') !important;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: auto;
+	width: auto;
+}
+
+body .container{
+	padding: 0 0px !important;	
+	width: 65% !important;
+	height: 90% !important;
+	position: absolute;
+	top: 5%;
+	left: 17%;
+	background-color: rgba(150, 151, 156, 0.8);
+	z-index: 0;
+}
+
+.container .encabezado {
+	position: absolute;
+	top: 0%;	
+	width: 100%;
+}
+
+.container .encabezado img {
+	width: 100%;
+}
+
+.container .encabezado p {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	font-size: 9vh;
+	color: #ffffff;
+}
+
+.container .scroll {
+	position: relative;
+	top: 20%;
+}
+
+.container form {
+	position: relative;
+	width: 80%;
+	height: 80%;
+	top: 20%;
+	left: 10%;
+}
+
+.container form .row {
+	padding-top: 2%;
+	height: 10%;
+}
+
+.container form .row .linea {
+	display: inline-block;	
+}
+
+datalist {
+	display: none;
+}
+
+.container form label {
+	color: #ffffff;
+}
+
+.container form label span {
+	color: #a80e16;
+}
+
+.container form label a {
+	color: #ffffff;
+}
+
+.container form input {
+	width: 100%;
+	border-radius: 0 1vh 1vh 0;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.container form select {
+	width: 100%;
+	height: 100%;
+	border-radius: 0 1vh 1vh 0;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.container button {
+	color: #ffffff;
+	position: relative;
+	left: 45%;
+	width: 110px;
+	height: 35px;
+	background-color: #a80e16;
+	border: none;
+	border-radius: 1vh 1vh 1vh 1vh;
+}
+
+@media only screen and (max-width: 1100px){
+	body .container{
+		padding: 0 0px !important;	
+		width: 100% !important;
+		height: 100% !important;
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		background-color: rgba(150, 151, 156, 0.8);
+		z-index: 0;
+	}
+
+	.container .encabezado {
+		position: absolute;
+		top: 0%;	
+		width: 100%;
+	}
+
+	.container .encabezado img {
+		width: 100%;
+	}
+
+	.container .encabezado p {
+		position: absolute;
+		top: 10%;
+			left: 10%;
+			font-size: 9vh;
+		color: #ffffff;
+	}
+
+}
+
+@media only screen and (max-width: 770px){
+	.container form .row {
+		padding-top: 2%;
+		height: 25%;
+	}
+
+	.scroll {
+		overflow-y: scroll;
+		position: absolute;
+		width: 100%;
+		height: 80%;
+		top: 20%;
+	}
+
+	.container form {
+		position: relative;
+		width: 80%;
+		height: 80%;
+		top: 0%;
+		left: 10%;
+	}
+}
